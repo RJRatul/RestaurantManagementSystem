@@ -9,7 +9,7 @@ exports.getAllCashiers = function (req, res) {
             if (error) throw error;
             if (results) {
                 // console.log(results);
-                res.render('cashier.ejs', { cashiers: results });
+                res.render('cashier.ejs',  { cashiers: results });
 
             }
         });
